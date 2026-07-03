@@ -1,0 +1,8 @@
+# D:\YASH\Movie_Recommendation_System\backend\requirements.txt
+google-generativeai>=0.3.0
+fastapi
+uvicorn
+pandas
+scikit-learn
+numpy
+pydantic

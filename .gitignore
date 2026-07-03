@@ -1,0 +1,45 @@
+# Root .gitignore for Movie Recommendation System
+
+# Node/Vite dependencies and builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.svelte-kit/
+frontend/.next/
+frontend/out/
+
+# Python dependencies and environments
+__pycache__/
+backend/__pycache__/
+*.py[cod]
+*$py.class
+backend/.venv/
+backend/venv/
+backend/ENV/
+backend/env/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Editor configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Verification script outputs or logs
+*.log
+backend/verify_recommender.py
+backend/get_posters.py
